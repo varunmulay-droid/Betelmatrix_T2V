@@ -2,7 +2,6 @@
 torch==2.6.0
 torchvision==0.21.0
 torchsde==0.2.6
---index-url https://download.pytorch.org/whl/cu121
 einops==0.8.0
 diffusers==0.30.3
 accelerate==0.33.0
@@ -25,3 +24,4 @@ gradio==4.44.0
 
 # Optional: for faster downloads (aria2 is installed via apt)
 # No pip package needed
+--index-url https://download.pytorch.org/whl/cu121
