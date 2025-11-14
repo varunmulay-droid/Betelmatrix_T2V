@@ -21,7 +21,7 @@ class AppState:
         self.models_downloaded = False
         self.models_loaded = False
         self.comfy_path = "/content/ComfyUI"
-        self.output_dir = "/content/Betelmatrix_AI_video_Gen/output"
+        self.output_dir = "/content/Betelmatrix_T2V/Output"
         self.useQ6 = False
        
         # Model components
