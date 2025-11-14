@@ -437,5 +437,5 @@ if __name__ == "__main__":
         debug=True,
         server_name="0.0.0.0",
         server_port=7861,
-        allowed_paths=["/content/Betelmatrix_AI_video_Gen/output", "/content/ComfyUI/output"]
+        allowed_paths=["/content/ComfyUI/output"]
     )
