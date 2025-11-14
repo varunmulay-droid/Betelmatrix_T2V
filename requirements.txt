@@ -1,27 +1,11 @@
-# Core ML / Diffusion
 torch==2.6.0
 torchvision==0.21.0
 torchsde==0.2.6
 einops==0.8.0
 diffusers==0.30.3
 accelerate==0.33.0
-
-
-# ComfyUI GGUF custom node (installs its own deps)
-# → We install via pip -r inside the script, but list here for clarity
-# (No need to duplicate; just kept for reference)
-
-# xformers (must match torch 2.6.0)
 xformers==0.0.29.post2
-
-# Media handling
 av==12.3.0
 imageio==2.35.1
 imageio-ffmpeg==0.5.1
-
-# Gradio UI
 gradio==4.44.0
-
-# Optional: for faster downloads (aria2 is installed via apt)
-# No pip package needed
---index-url https://download.pytorch.org/whl/cu121
